@@ -51,3 +51,4 @@ echo '
         </table>
     </body>
 </html>';
+?>

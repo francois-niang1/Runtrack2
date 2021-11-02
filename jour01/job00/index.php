@@ -1,3 +1,3 @@
 <?php
 $str="Hello Plateforme !";
-echo $str;
+echo $str; ?>
