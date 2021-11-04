@@ -9,3 +9,4 @@ $len=0;
 
 $str="Dans l'espace, personne ne vous entend crier";
 echo "Il y a ".mystrlen($str)." caractères";
+?>

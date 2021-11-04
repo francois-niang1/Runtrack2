@@ -9,3 +9,4 @@ function my_str(){
 }
 my_str();
 
+?>

@@ -12,3 +12,5 @@ while(isset($str[$j])==true){
     $j++;
 }
 echo $str[$i];
+
+?>
