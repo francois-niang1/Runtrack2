@@ -9,3 +9,4 @@ while ($i < $int){
     }
     echo $i .'<br>';
 }
+?>

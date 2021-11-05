@@ -12,3 +12,4 @@ for($i=0;$i<1000;$i++) {
     if ($compteur == 2)
         echo $i.'<br/>';
 }
+?>
