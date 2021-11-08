@@ -33,8 +33,8 @@ function leetspeak($str){
         }
     $i++;
     }
-    echo $str;
+    return $str;
 }
 
 $str = 'Aujourdhui Boris cest grave le sang';
-leetspeak($str);
+echo leetspeak($str);
