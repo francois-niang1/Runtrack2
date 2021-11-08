@@ -1,11 +1,20 @@
 <?php
-function occurrences($str){
+function occurrences($str, $char){
     $i=0;
+    $compt =0;
     while (isset($str[$i])){
+        $j=0;
+        while (isset($char[$j])){
+            if($str[$i] == $char[$j]) {
+                $compt++;
+            }
+            $j++;
+        }
         $i++;
     }
-    return $i;
+    return $compt;
 }
 
-$str = "papa et maman";
-echo 'Il y a <b>'.occurrences($str).'</b> nombres de caractères.';
+echo 'Cette lettre apparait <b>'.occurrences('papa et maman', 'p').'</b> fois.';
+
+?>
