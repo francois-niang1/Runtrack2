@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Sun;
+    src: url(../font/SunnyspellsRegular.otf);
+}
+body{
+    background-color: rgb(112, 148, 224);
+}
+h1{
+    text-align: center;
+    font-size: 130px;
+    color: rgb(235, 227, 123);
+    font-family: Sun;
+    text-shadow: 2px 2px 8px rgb(201, 219, 34);
+}

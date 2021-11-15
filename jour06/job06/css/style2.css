@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Demon;
+    src: url(../font/Demoness.otf);
+}
+body{
+    background-color: rgb(93, 93, 93);
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    font-family: Demon;
+    text-shadow: 5px 5px 3px rgb(202, 202, 202);
+}

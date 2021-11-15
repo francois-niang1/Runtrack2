@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Angel;
+    src: url(../font/Angel.TTF);
+}
+body{
+    background-color: rgb(233, 214, 173);
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    color: black;
+    font-family: Angel;
+    text-shadow: 5px 5px 5px grey;
+}
