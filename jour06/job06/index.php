@@ -28,10 +28,10 @@
         <h1>Changer le style  !!!</h1>
         <form action="./index.php" method="post">
         <select name="style" id="style">
-            <option value="choix">---Choisissez un Style---</option>
-            <option value="style1">Clair</option>
-            <option value="style2">Sombre</option>
-            <option value="style3">Custom</option>
+            <option value="choix" class="Choix">---Choisissez un Style---</option>
+            <option value="style1" class="Choix">Clair</option>
+            <option value="style2" class="Choix">Sombre</option>
+            <option value="style3" class="Choix">Custom</option>
         </select>
         <input type="submit" value="Send">
         </form> 
